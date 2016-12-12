@@ -5,6 +5,13 @@ public class Vehicle {
     int fuelcap;
     int mpg;
 
+    // this is a constructor for Vehicle
+    Vehicle(int p, int f, int m){
+        passengers = p;
+        fuelcap = f;
+        mpg = m;
+    }
+
 //    void range(){ // method within the Vehicle class
 //        System.out.println("Range is " + fuelcap * mpg);
 //    }
